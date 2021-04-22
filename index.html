@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="code.js"></script>
+    <title>Pizza Order Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<header id="topper"><h1> <img src="pizza.png" height="50px" width="50px">Vaccpuchis Pizzeria <img src="pizza.png" height="50px" width="50px"></h1> </header>
+<div id="wrapper">
+<button id="start">Click here to start your order!</button>
+
+<div id="part1">
+<h2>-Pizza Size-</h2>
+<label for="small">Small</label>
+<input type="radio" name="size" id="small" data-size="Small">
+<br>
+<label for="medium">Medium</label>
+<input type="radio" name="size" id="medium" data-size="Medium">
+<br>
+<label for="large">Large</label>
+<input type="radio" name="size" id="large" data-size="Large">
+<br>
+<br>
+
+<h2>-Type of Crust-</h2>
+<label for="thin">Thin</label>
+<input type="radio" name="crust" id="thin" data-crust="thin">
+<br>
+<label for="pan">Pan</label>
+<input type="radio" name="crust" id="pan" data-crust="pan">
+<br>
+<label for="gfree">Gluten Free</label>
+<input type="radio" name="crust" id="gfree" data-crust="gluten-free">
+<br>
+<br>
+
+<h2>-Meat-</h2>
+
+<label for="saus">Sausage</label>
+<input type="checkbox" name="meat" id="saus" data-meat="sausage">
+<br>
+<label for="roni">Pepperoni</label>
+<input type="checkbox" name="meat" id="roni" data-meat="pepperoni">
+<br>
+<label for="ib">Italian Beef</label>
+<input type="checkbox" name="meat" id="ib" data-meat="italian beef">
+<br>
+<br>
+
+<h2>-Vegetables-</h2>
+<label for="mush">Mushroom</label>
+<input type="checkbox" name="veggie" id="mush" data-veggie="mushroom">
+<br>
+<label for="greenp">Green Pepper</label>
+<input type="checkbox" name="veggie" id="greenp" data-veggie="green pepper">
+<br>
+<label for="olive">Olives</label>
+<input type="checkbox" name="veggie" id="olive" data-veggie="olives">
+<br>
+<label for="onion">Onion</label>
+<input type="checkbox" name="veggie" id="onion" data-veggie="onion">
+</div>
+<button id="toP2">Next</button>
+<div id="part2">
+<h2>-Enter Name, Address and Phone Number for Delivery-</h2>
+<label for="fname">First Name:</label>
+<input type="text" name="dinfo" id="fname">
+<br>
+<label for="lname">Last Name</label>
+<input type="text" name="dinfo" id="lname">
+<br>
+<label for="addy">Address</label>
+<input type="text" name="dinfo" id="addy">
+<br>
+<label for="phoneN">Phone Number</label>
+<input type="text" name="dinfo" id="phoneN">
+<br>
+</div>
+
+
+<button id="submit">Submit Order!</button>
+
+<p id="pinfo"></p>
+<p id="order"></p>
+<p id="subtotal"></p>
+<p id="tax"></p>
+<p id="fee">Delivery fee: +$2.00</p>
+<p id="total"></p>
+    <img id="pizza" src="pizza.png" height="50px" width="50px">
+    <img id="happy" src="happy.png">
+</div>
+<footer>
+    <small>Copyright © 2021 Vaccpuchis Pizzeria</small><br>
+    <a href="ian@ollhoff.com">ian@ollhoff.com</a>
+</footer>
+</body>
+</html>

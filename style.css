@@ -1,0 +1,23 @@
+body {
+    background-color: firebrick;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+#wrapper {
+    alignment: center;
+text-align: center;
+    background-color: #f5f5f5;
+    padding: 2em;
+}
+
+#topper {
+    background-color: maroon;
+    text-align: center;
+    color: whitesmoke;
+    font-size: 130%;
+}
+
+footer {
+    text-align: center;
+    font-style: italic;
+}
